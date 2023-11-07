@@ -1,6 +1,6 @@
 version: "3.9"
 services:
- randomizer-service:
+ voetbal-api:
   image: falcowalko/voetbalapi-project:latest
   ports:
     - "8000:8000"
