@@ -1,4 +1,4 @@
-FROM python:3.11.0-alpine
+FROM python:3.11.0-slim
 WORKDIR /code
 EXPOSE 8000
 COPY ./api/requirements.txt /code/requirements.txt
