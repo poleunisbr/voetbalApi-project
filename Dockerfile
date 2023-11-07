@@ -2,7 +2,7 @@ FROM python:3.11.0-alpine
 WORKDIR /code
 EXPOSE 8000
 COPY ./api/requirements.txt /code/requirements.txt
-COPY ./api /code/app
+COPY ./api /code
 RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 RUN python3 database.py
 RUN python3 fillDb.py
