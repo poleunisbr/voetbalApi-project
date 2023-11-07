@@ -4,3 +4,8 @@ services:
   image: falcowalko/voetbalapi-project:latest
   ports:
     - "8000:8000"
+  volumes:
+   - sqlit_volume:/code/sqlitedb
+
+ volumes:
+  sqlite_volume:
