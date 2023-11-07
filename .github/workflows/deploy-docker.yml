@@ -17,5 +17,5 @@ jobs:
         run: docker build -t ${{ secrets.DOCKER_USER }}/voetbalapi-project:latest .
 
       - name: Upload container to Docker Hub with Push
-        run: docker push ${{ se crets.DOCKER_USER }}/voetbalapi-project:latest
+        run: docker push ${{ secrets.DOCKER_USER }}/voetbalapi-project:latest
 
