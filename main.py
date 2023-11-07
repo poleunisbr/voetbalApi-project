@@ -29,9 +29,11 @@ def read_team(team_id: int, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Team not found")
     return team
 
+
 @app.get("/teams/", response_model=list[Team])  # Use Team from schemas.py
 def read_teams(db: Session = Depends(get_db)):
     return crud.read_teams(db)
+
 
 @app.put("/teams/{team_id}", response_model=Team)  # Use Team from schemas.py
 def update_team(team_id: int, team: Team, db: Session = Depends(get_db)):
@@ -40,6 +42,7 @@ def update_team(team_id: int, team: Team, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Team not found")
     return crud.update_team(db, team_id, team)
 
+
 @app.delete("/teams/{team_id}", response_model=Team)  # Use Team from schemas.py
 def delete_team(team_id: int, db: Session = Depends(get_db)):
     team = crud.delete_team(db, team_id)
@@ -47,12 +50,12 @@ def delete_team(team_id: int, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Team not found")
     return team
 
-# ...
 
 # API endpoints for scores
 @app.post("/scores/", response_model=Score)  # Use Score from schemas.py
 def create_score(score: Score, db: Session = Depends(get_db)):
     return crud.create_score(db, score)
+
 
 @app.get("/scores/{score_id}", response_model=Score)  # Use Score from schemas.py
 def read_score(score_id: int, db: Session = Depends(get_db)):
@@ -61,9 +64,11 @@ def read_score(score_id: int, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Score not found")
     return score
 
+
 @app.get("/scores/", response_model=list[Score])  # Use Score from schemas.py
 def read_scores(db: Session = Depends(get_db)):
     return crud.read_scores(db)
+
 
 @app.put("/scores/{score_id}", response_model=Score)  # Use Score from schemas.py
 def update_score(score_id: int, score: Score, db: Session = Depends(get_db)):
@@ -72,12 +77,14 @@ def update_score(score_id: int, score: Score, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Score not found")
     return crud.update_score(db, score_id, score)
 
+
 @app.delete("/scores/{score_id}", response_model=Score)  # Use Score from schemas.py
 def delete_score(score_id: int, db: Session = Depends(get_db)):
     score = crud.delete_score(db, score_id)
     if score is None:
         raise HTTPException(status_code=404, detail="Score not found")
     return score
+
 
 if __name__ == "__main__":
     import uvicorn
