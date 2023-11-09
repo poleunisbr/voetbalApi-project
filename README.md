@@ -12,7 +12,7 @@ Hieronder vind je een aantal voorbeelden van Postman-verzoeken die elk endpoint 
 
 #### 1. Een nieuw team maken
 
-![Create Team](URL_NAAR_SCREENSHOT_TEAM_CREATE)
+![Create Team](/scr/teamsPost.png)
 
 #### 2. Een specifiek team ophalen
 
