@@ -1,5 +1,10 @@
 # Voetbal API
 
+## Over mij
+
+Studentennummer: r0931795
+Naam: Bryan Poleunis
+
 ## Beschrijving/Thema
 
 Ik heb gekozen voor het thema voetbal omdat ik vorig jaar voor sql hier ook een database gemaakt had voor een klassement leek het mij nu interresant om ook een api te proberen te maken voor een voetbalklassement.
