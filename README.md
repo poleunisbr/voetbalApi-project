@@ -20,15 +20,15 @@ Hieronder vind je een aantal voorbeelden van Postman-verzoeken die elk endpoint 
 
 #### 3. Alle teams ophalen
 
-![Get Teams](/scr/teamsGet)
+![Get Teams](/scr/teamsGet.png)
 
 #### 4. Een bestaand team bijwerken
 
-![Update Team](/scr/teamsGet)
+![Update Team](/scr/teamsGet.png)
 
 #### 5. Een team verwijderen
 
-![Delete Team](/scr/teamsDelete)
+![Delete Team](/scr/teamsDelete.png)
 
 ### Scores Endpoints
 
