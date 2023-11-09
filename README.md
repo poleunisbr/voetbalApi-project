@@ -16,19 +16,19 @@ Hieronder vind je een aantal voorbeelden van Postman-verzoeken die elk endpoint 
 
 #### 2. Een specifiek team ophalen
 
-![Get Team](URL_NAAR_SCREENSHOT_TEAM_GET)
+![Get Team]/scr/teamsGetId)
 
 #### 3. Alle teams ophalen
 
-![Get Teams](URL_NAAR_SCREENSHOT_TEAMS_GET)
+![Get Teams](/scr/teamsGet)
 
 #### 4. Een bestaand team bijwerken
 
-![Update Team](URL_NAAR_SCREENSHOT_TEAM_UPDATE)
+![Update Team](/scr/teamsGet)
 
 #### 5. Een team verwijderen
 
-![Delete Team](URL_NAAR_SCREENSHOT_TEAM_DELETE)
+![Delete Team](/scr/teamsDelete)
 
 ### Scores Endpoints
 
