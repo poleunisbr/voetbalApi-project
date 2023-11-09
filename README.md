@@ -8,7 +8,8 @@ In deze repo vind je mij REST api waarmee je een voetbal database/klassement kan
 
 Deze API is gehost op Okteto Cloud. Je kunt de API-documentatie en voorbeelden vinden op de volgende locatie:
 
-[API](https://voetbal-api-poleunisbr.cloud.okteto.net/).
+[API](https://voetbal-api-poleunisbr.cloud.okteto.net/)
+
 [Documentatie](https://voetbal-api-poleunisbr.cloud.okteto.net/docs)
 
 
