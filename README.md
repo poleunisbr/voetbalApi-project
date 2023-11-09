@@ -56,4 +56,4 @@ Hieronder vind je een aantal voorbeelden van Postman-verzoeken die elk endpoint 
 
 Hier is een screenshot van de volledige OpenAPI-docs pagina:
 
-![OpenAPI Documentatie](URL_NAAR_OPENAPI_DOCS)
+![OpenAPI Documentatie](/scr/endpoints.png)
