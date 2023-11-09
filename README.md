@@ -16,7 +16,7 @@ Hieronder vind je een aantal voorbeelden van Postman-verzoeken die elk endpoint 
 
 #### 2. Een specifiek team ophalen
 
-![Get Team](/scr/teamsGetID)
+![Get Team](/scr/teamsGetId)
 
 #### 3. Alle teams ophalen
 
@@ -38,7 +38,7 @@ Hieronder vind je een aantal voorbeelden van Postman-verzoeken die elk endpoint 
 
 #### 2. Een specifieke score ophalen
 
-![Get Score](/scr/scoresGetId.png)
+![Get Score](/scr/scoresGetID.png)
 
 #### 3. Alle scores ophalen
 
