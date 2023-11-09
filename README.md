@@ -24,7 +24,7 @@ Hieronder vind je een aantal voorbeelden van Postman-verzoeken die elk endpoint 
 
 #### 4. Een bestaand team bijwerken
 
-![Update Team](/scr/teamsGet.png)
+![Update Team](/scr/teamsPut.png)
 
 #### 5. Een team verwijderen
 
@@ -34,23 +34,23 @@ Hieronder vind je een aantal voorbeelden van Postman-verzoeken die elk endpoint 
 
 #### 1. Een nieuwe score toevoegen
 
-![Create Score](URL_NAAR_SCREENSHOT_SCORE_CREATE)
+![Create Score](/scr/scoresPost.png)
 
 #### 2. Een specifieke score ophalen
 
-![Get Score](URL_NAAR_SCREENSHOT_SCORE_GET)
+![Get Score](/scr/scoresGetId.png)
 
 #### 3. Alle scores ophalen
 
-![Get Scores](URL_NAAR_SCREENSHOT_SCORES_GET)
+![Get Scores](/scr/scoresGet.png)
 
 #### 4. Een bestaande score bijwerken
 
-![Update Score](URL_NAAR_SCREENSHOT_SCORE_UPDATE)
+![Update Score](/scr/scoresPut.png)
 
 #### 5. Een score verwijderen
 
-![Delete Score](URL_NAAR_SCREENSHOT_SCORE_DELETE)
+![Delete Score](/scr/scoresDelete.png)
 
 ## Volledige OpenAPI Docs
 
