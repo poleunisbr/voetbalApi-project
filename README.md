@@ -52,8 +52,112 @@ Hieronder vind je een aantal voorbeelden van Postman-verzoeken die elk endpoint 
 
 ![Delete Score](/scr/scoresDelete.png)
 
-## Volledige OpenAPI Docs
+# Volledige OpenAPI Docs
 
 Hier is een screenshot van de volledige OpenAPI-docs pagina:
 
 ![OpenAPI Documentatie](/scr/endpoints.png)
+
+## Endpoints
+
+Hieronder vind je gedetailleerde informatie over elk individueel endpoint van de Voetbal API.
+
+### 1. Weergeven Alle Teams
+
+**Endpoint:** `/teams/`
+
+**Methode:** `GET`
+
+Dit endpoint geeft een lijst met alle voetbalteams.
+
+![Get Teams](/scr/teamsGetEndpoint.png)
+
+### 2. Een Nieuw Team Maken
+
+**Endpoint:** `/teams/`
+
+**Methode:** `POST`
+
+Dit endpoint maakt een nieuw voetbalteam aan.
+
+![Create Team](/scr/teamsPostEndpoint.png)
+
+### 3. Een Specifiek Team Ophalen
+
+**Endpoint:** `/teams/{team_id}`
+
+**Methode:** `GET`
+
+Dit endpoint haalt informatie op over een specifiek voetbalteam op basis van het team ID.
+
+![Get Team](/scr/teamsGetIDEndpoint.png)
+
+### 4. Een Team Bijwerken
+
+**Endpoint:** `/teams/{team_id}`
+
+**Methode:** `PUT`
+
+Dit endpoint werkt de informatie van een specifiek voetbalteam bij op basis van het team ID.
+
+![Update Team](/scr/teamsPutEndpoint.png)
+
+### 5. Een Team Verwijderen
+
+**Endpoint:** `/teams/{team_id}`
+
+**Methode:** `DELETE`
+
+Dit endpoint verwijdert een specifiek voetbalteam op basis van het team ID.
+
+![Delete Team](/scr/teamsDeleteEndpoint.png)
+
+### 6. Weergeven Alle Scores
+
+**Endpoint:** `/scores/`
+
+**Methode:** `GET`
+
+Dit endpoint geeft een lijst met alle scores.
+
+![Get Scores](/scr/scoresGetEndpoint.png)
+
+### 7. Een Nieuwe Score Toevoegen
+
+**Endpoint:** `/scores/`
+
+**Methode:** `POST`
+
+Dit endpoint voegt een nieuwe score toe.
+
+![Create Score](/scr/scoresPostEndpoint.png)
+
+### 8. Een Specifieke Score Ophalen
+
+**Endpoint:** `/scores/{score_id}`
+
+**Methode:** `GET`
+
+Dit endpoint haalt informatie op over een specifieke score op basis van het score ID.
+
+![Get Score](/scr/scoresGetIDEndpoint.png)
+
+### 9. Een Score Bijwerken
+
+**Endpoint:** `/scores/{score_id}`
+
+**Methode:** `PUT`
+
+Dit endpoint werkt de informatie van een specifieke score bij op basis van het score ID.
+
+![Update Score](/scr/scoresPutEndpoint.png)
+
+### 10. Een Score Verwijderen
+
+**Endpoint:** `/scores/{score_id}`
+
+**Methode:** `DELETE`
+
+Dit endpoint verwijdert een specifieke score op basis van het score ID.
+
+![Delete Score](/scr/scoresDeleteEndpoint.png)
