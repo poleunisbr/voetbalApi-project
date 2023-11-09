@@ -1,6 +1,8 @@
 # Voetbal API
 
-## Beschrijving
+## Beschrijving/Thema
+
+Ik heb gekozen voor het thema voetbal omdat ik vorig jaar voor sql hier ook een database gemaakt had voor een klassement leek het mij nu interresant om ook een api te proberen te maken voor een voetbalklassement.
 
 In deze repo vind je mij REST api waarmee je een voetbal database/klassement kan beheren. De database bevat teams en scores en je kan deze bekijken en aanpassen met behulp van de api.
 
