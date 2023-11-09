@@ -12,6 +12,11 @@ Deze API is gehost op Okteto Cloud. Je kunt de API-documentatie en voorbeelden v
 
 [Documentatie](https://voetbal-api-poleunisbr.cloud.okteto.net/docs)
 
+De API maakt gebruik van standaard authenticatie voor sommige endpoints om in te loggen voor gebruik je volgende credentials:
+
+USERNAME: administrator
+
+PASSWORD: admin-api
 
 ## Aantoonbare Werking
 
