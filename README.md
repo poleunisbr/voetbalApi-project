@@ -4,6 +4,13 @@
 
 In deze repo vind je mij REST api waarmee je een voetbal database/klassement kan beheren. De database bevat teams en scores en je kan deze bekijken en aanpassen met behulp van de api.
 
+## Okteto cloud
+
+Deze API is gehost op Okteto Cloud. Je kunt de API-documentatie en voorbeelden vinden op de volgende locatie:
+
+[Okteto Cloud Container](https://voetbal-api-poleunisbr.cloud.okteto.net/)
+
+
 ## Aantoonbare Werking
 
 Hieronder vind je een aantal voorbeelden van Postman-verzoeken die elk endpoint van de API demonstreren.
